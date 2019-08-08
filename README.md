@@ -10,3 +10,7 @@ Used the form functionality from the previous step to take an input and predict 
 
 
 
+
+****
+python VENV
+https://stackoverflow.com/questions/18204134/install-python-numpy-in-the-virtualenv-environment
