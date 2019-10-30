@@ -1,16 +1,25 @@
 # Flask
 
-1. Made a simple hello world flask application. --> https://www.geeksforgeeks.org/flask-creating-first-simple-application/
+This is a repository for Flask applications.
 
-2. Made a HTML form. Wrote a python script with flask to add the submit form functionality --> https://www.geeksforgeeks.org/flask-creating-first-simple-application/
+The virtual environment corresponds to the directory: flask_env
+The command to activate the virtual environment: source flask_env/bin/activate
 
-3. Created a very simple Linear Regression Model, using this dataset from Kaggle --> 
+In each project directory, run the following command to start the Flask API,
+python app.py
+By default, flask will run on port 5000. Navigate to URL http://localhost:5000 on the browser.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+./hello-world
+A simple hello world flask application. https://www.geeksforgeeks.org/flask-creating-first-simple-application/
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+./ML-App
+Created a simple Linear Regression Model, using this dataset from Kaggle,
 https://www.kaggle.com/andonians/random-linear-regression
-Used the form functionality from the previous step to take an input and predict the output using the trained Linear Regression Model.
-
-4. Built a gender predictor web app. The model was trained on a dataset of (name, sex) tuples. 
-
-
-****
-python VENV
-https://stackoverflow.com/questions/18204134/install-python-numpy-in-the-virtualenv-environment
+The web app uses the form functionality from to take an input. The output is predicted with the pre-trained Linear Regression Model.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+./gender-classification-app
+A web form interface to accept a name as input, and output the predicted gender using the pre-trained model. 
+The model was trained on a dataset (names_dataset.csv in the ./gender-classification-app/models directory) of (name, sex) tuples. 

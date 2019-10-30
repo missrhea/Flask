@@ -17,5 +17,4 @@ def results():
         return render_template('result.html', input=input, prediction=prediction)
 
 if __name__ == '__main__': 
-   #app.run(host="0.0.0.0", port=80)
-   app.run("localhost", "9999", debug=True)
+   app.run(debug=True)

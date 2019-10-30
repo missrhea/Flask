@@ -27,8 +27,6 @@ def predict():
     X = cv.fit_transform(df_X) 
 
     # Loading our ML Model
-    #naivebayes_model = open("models/naive_bayes_model.pkl","rb")
-    #clf = joblib.load(naivebayes_model)
     sample_dbfile = open('models/naive_bayes_model.pkl', 'rb')      
     clf = pickle.load(sample_dbfile) 
     # Receives the input query from form
